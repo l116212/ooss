@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://android.com/manifest">
+    <remote name="origin" fetch="https://github.com/OnePlusOSS/" />
+
+    <!-- 定义三个仓库 -->
+    <project name="android_kernel_oneplus_sm8750" path="kernel/oneplus_sm8750" revision="oneplus/sm8750_v_15.0.0_oneplus_13" />
+    <project name="android_kernel_common_oneplus_sm8750" path="kernel/common_sm8750" revision="oneplus/sm8750_v_15.0.0_oneplus_13" />
+    <project name="android_kernel_modules_and_devicetree_oneplus_sm8750" path="kernel/modules_and_devicetree_sm8750" revision="oneplus/sm8750_v_15.0.0_oneplus_13" />
+</manifest>
