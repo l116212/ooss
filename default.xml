@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest xmlns="http://android.com/manifest">
-    <remote name="origin" fetch="https://github.com/OnePlusOSS/" />
-
-    <!-- 定义三个仓库 -->
-    <project name="android_kernel_oneplus_sm8750" path="kernel/oneplus_sm8750" revision="oneplus/sm8750_v_15.0.0_oneplus_13" />
-    <project name="android_kernel_common_oneplus_sm8750" path="kernel/common_sm8750" revision="oneplus/sm8750_v_15.0.0_oneplus_13" />
-    <project name="android_kernel_modules_and_devicetree_oneplus_sm8750" path="kernel/modules_and_devicetree_sm8750" revision="oneplus/sm8750_v_15.0.0_oneplus_13" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:repo="https://gerrit.googlesource.com/git-repo">
+    
+    <!-- 定义远程仓库源 -->
+    <remote name="origin"
+            fetch="https://github.com/OnePlusOSS/"
+            revision="oneplus/sm8750_v_15.0.0_oneplus_13" />
+    
+    <!-- 定义默认同步参数 -->
+    <default remote="origin"
+             sync-j="4"
+             revision="refs/heads/main" />
+    
+    <!-- 内核相关仓库 -->
+    <project name="android_kernel_oneplus_sm8750"
+             path="kernel/oneplus_sm8750" />
+    
+    <project name="android_kernel_common_oneplus_sm8750"
+             path="kernel/common_sm8750" />
+    
+    <project name="android_kernel_modules_and_devicetree_oneplus_sm8750"
+             path="kernel/modules_and_devicetree_sm8750" />
 </manifest>
