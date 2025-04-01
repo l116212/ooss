@@ -14,14 +14,14 @@
     
     <!-- 内核相关仓库 -->
     <project name="android_kernel_oneplus_sm8750" 
-         path="one/kernel" 
+         path="kernel" 
          revision="oneplus/sm8750_v_15.0.0_oneplus_13" />
 
     <project name="android_kernel_common_oneplus_sm8750" 
-         path="one/kernel/common" 
+         path="kernel/common" 
          revision="oneplus/sm8750_v_15.0.0_oneplus_13" />
 
     <project name="android_kernel_modules_and_devicetree_oneplus_sm8750" 
-         path="one/kernel/modules" 
+         path="kernel/modules" 
          revision="oneplus/sm8750_v_15.0.0_oneplus_13" />
 </manifest>
