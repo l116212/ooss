@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- 远程仓库定义 -->
-  <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la" />
+  <remote fetch="https://android.googlesource.com/" name="clo-la" />
   <remote fetch="https://github.com/OnePlusOSS" name="oneplus" />
 
   <!-- 默认参数 -->
