@@ -39,6 +39,7 @@
     <linkfile dest="kernel_platform/build/prebuilts/kernel-build-tools" src="." />
     
   </project>
+  
  <!--  Bazel 规则库引用 -->
   <project remote="clo-la" 
            name="kernel_platform/build/bazel_common_rules" 
