@@ -275,3 +275,4 @@
            clone-depth="1">
       <linkfile dest="kernel_platform/build/build-tools/sysroot" src="sysroot"/>
   </project>
+</manifest>
