@@ -179,20 +179,95 @@
            revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
            upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
            clone-depth="1"/>
-  <project remote="clo-la" name=kernel_platform/external/zopfli" path="kernel_platform/external/zopfli" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
-  <project remote="clo-la" name=kernel_platform/prebuilts/asuite" path="kernel_platform/prebuilts/asuite" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
-  <project remote="clo-la" name=kernel_platform/prebuilts/build-tools" path="kernel_platform/prebuilts/build-tools" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1">
-    <linkfile dest="kernel_platform/build/prebuilts/build-tools" src="."/>
+<!-- Zopfli 压缩工具库 -->
+  <project remote="clo-la" 
+           name="kernel_platform/external/zopfli" 
+           path="kernel_platform/external/zopfli" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1"/>
+
+<!-- Android Suite 预编译工具 -->
+  <project remote="clo-la" 
+           name="kernel_platform/prebuilts/asuite" 
+           path="kernel_platform/prebuilts/asuite" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1"/>
+
+<!-- 构建工具链（含符号链接） -->
+  <project remote="clo-la" 
+           name="kernel_platform/prebuilts/build-tools" 
+           path="kernel_platform/prebuilts/build-tools" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1">
+      <linkfile dest="kernel_platform/build/prebuilts/build-tools" src="."/>
   </project>
-  <project remote="clo-la" name=kernel_platform/prebuilts/clang-tools" path="kernel_platform/prebuilts/clang-tools" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1">
-    <linkfile dest="kernel_platform/build/prebuilts/clang-tools" src="."/>
+<!-- Clang工具链预编译包 -->
+  <project remote="clo-la" 
+           name="kernel_platform/prebuilts/clang-tools" 
+           path="kernel_platform/prebuilts/clang-tools" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1">
+      <linkfile dest="kernel_platform/build/prebuilts/clang-tools" src="."/>
   </project>
-  <project remote="clo-la" name=kernel_platform/prebuilts/jdk/jdk11" path="kernel_platform/prebuilts/jdk/jdk11" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
-  <project remote="clo-la" name=kernel_platform/prebuilts/rust" path="kernel_platform/prebuilts/rust" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
-  <project remote="clo-la" name=kernel_platform/system/tools/mkbootimg" path="kernel_platform/tools/mkbootimg" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
-  <project remote="clo-la" name=kernel_platform/toolchain/prebuilts/ndk/r26" path="kernel_platform/prebuilts/ndk-r26" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
-  <project remote="clo-la" name=kernel_platform/tools/tradefederation/prebuilts" path="kernel_platform/prebuilts/tradefed" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
-  <project remote="clo-la" name=kernelplatform/prebuilts-master/clang/host/linux-x86" path="kernel_platform/prebuilts/clang/host/linux-x86" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
-  <project remote="clo-la" name=kernelplatform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="kernel_platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1">
-    <linkfile dest="kernel_platform/build/build-tools/sysroot" src="sysroot"/>
+
+<!-- JDK11预编译环境 -->
+  <project remote="clo-la" 
+           name="kernel_platform/prebuilts/jdk/jdk11" 
+           path="kernel_platform/prebuilts/jdk/jdk11" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1"/>
+
+<!-- Rust工具链预编译包 -->
+  <project remote="clo-la" 
+           name="kernel_platform/prebuilts/rust" 
+           path="kernel_platform/prebuilts/rust" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1"/>
+
+<!-- 内核镜像打包工具 -->
+  <project remote="clo-la" 
+           name="kernel_platform/system/tools/mkbootimg" 
+           path="kernel_platform/tools/mkbootimg" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1"/>
+
+<!-- NDK-R26预编译工具链 -->
+  <project remote="clo-la" 
+           name="kernel_platform/toolchain/prebuilts/ndk/r26" 
+           path="kernel_platform/prebuilts/ndk-r26" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1"/>
+
+<!-- Trade Federation测试框架预编译包 -->
+  <project remote="clo-la" 
+           name="kernel_platform/tools/tradefederation/prebuilts" 
+           path="kernel_platform/prebuilts/tradefed" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1"/>
+
+<!-- Clang主机工具链 -->
+  <project remote="clo-la" 
+           name="kernel_platform/prebuilts-master/clang/host/linux-x86" 
+           path="kernel_platform/prebuilts/clang/host/linux-x86" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1"/>
+
+<!-- GCC交叉编译工具链 -->
+  <project remote="clo-la" 
+           name="kernel_platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" 
+           path="kernel_platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1">
+      <linkfile dest="kernel_platform/build/build-tools/sysroot" src="sysroot"/>
   </project>
