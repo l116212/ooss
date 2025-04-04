@@ -39,8 +39,20 @@
     <linkfile dest="kernel_platform/build/prebuilts/kernel-build-tools" src="." />
     
   </project>
-  <project remote="clo-la" name=kernel_platform/build/bazel_common_rules" path="kernel_platform/build/bazel_common_rules" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
-  <project remote="clo-la" name=kernel_platform/external/bazel-skylib" path="kernel_platform/external/bazel-skylib" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
+ <!--  Bazel 规则库引用 -->
+  <project remote="clo-la" 
+           name="kernel_platform/build/bazel_common_rules" 
+           path="kernel_platform/build/bazel_common_rules" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1"/>
+  <!--  Bazel 外部依赖库 -->
+  <project remote="clo-la" 
+           name="kernel_platform/external/bazel-skylib" 
+           path="kernel_platform/external/bazel-skylib" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1"/>
   <project remote="clo-la" name=kernel_platform/external/bazelbuild-apple_support" path="kernel_platform/external/bazelbuild-apple_support" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
   <project remote="clo-la" name=kernel_platform/external/bazelbuild-bazel-central-registry" path="kernel_platform/external/bazelbuild-bazel-central-registry" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
   <project remote="clo-la" name=kernel_platform/external/bazelbuild-platforms" path="kernel_platform/external/bazelbuild-platforms" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
