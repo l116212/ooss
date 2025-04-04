@@ -124,13 +124,61 @@
            revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
            upstream="upstream/qcom/kernel.build.lnx.2.0.r9-rel" 
            clone-depth="1"/>
-  <project remote="clo-la" name=kernel_platform/external/libcap" path="kernel_platform/external/libcap" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
-  <project remote="clo-la" name=kernel_platform/external/libcap-ng" path="kernel_platform/external/libcap-ng" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
-  <project remote="clo-la" name=kernel_platform/external/lz4" path="kernel_platform/external/lz4" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
-  <project remote="clo-la" name=kernel_platform/external/pigz" path="kernel_platform/external/pigz" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
-  <project remote="clo-la" name=kernel_platform/external/python/absl-py" path="kernel_platform/external/python/absl-py" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
-  <project remote="clo-la" name=kernel_platform/external/toybox" path="kernel_platform/external/toybox" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
-  <project remote="clo-la" name=kernel_platform/external/zlib" path="kernel_platform/external/zlib" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
+<!-- Libcap 权限管理库 -->
+  <project remote="clo-la" 
+           name="kernel_platform/external/libcap" 
+           path="kernel_platform/external/libcap" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1"/>
+
+<!-- Libcap-ng 增强权限库 -->
+  <project remote="clo-la" 
+           name="kernel_platform/external/libcap-ng" 
+           path="kernel_platform/external/libcap-ng" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1"/>
+
+<!-- LZ4 高性能压缩库 -->
+  <project remote="clo-la" 
+           name="kernel_platform/external/lz4" 
+           path="kernel_platform/external/lz4" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1"/>
+
+<!-- Pigz 并行压缩工具 -->
+  <project remote="clo-la" 
+           name="kernel_platform/external/pigz" 
+           path="kernel_platform/external/pigz" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1"/>
+
+<!-- Python Absl 基础库 -->
+  <project remote="clo-la" 
+           name="kernel_platform/external/python/absl-py" 
+           path="kernel_platform/external/python/absl-py" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1"/>
+
+<!-- Toybox 嵌入式工具集 -->
+  <project remote="clo-la" 
+           name="kernel_platform/external/toybox" 
+           path="kernel_platform/external/toybox" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1"/>
+
+<!-- Zlib 压缩库 -->
+  <project remote="clo-la" 
+           name="kernel_platform/external/zlib" 
+           path="kernel_platform/external/zlib" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1"/>
   <project remote="clo-la" name=kernel_platform/external/zopfli" path="kernel_platform/external/zopfli" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
   <project remote="clo-la" name=kernel_platform/prebuilts/asuite" path="kernel_platform/prebuilts/asuite" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
   <project remote="clo-la" name=kernel_platform/prebuilts/build-tools" path="kernel_platform/prebuilts/build-tools" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1">
