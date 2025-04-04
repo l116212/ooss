@@ -181,6 +181,7 @@
            revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
            upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
            clone-depth="1"/>
+  
 <!-- Zopfli 压缩工具库 -->
   <project remote="clo-la" 
            name="kernel_platform/external/zopfli" 
@@ -206,6 +207,7 @@
            clone-depth="1">
       <linkfile dest="kernel_platform/build/prebuilts/build-tools" src="."/>
   </project>
+  
 <!-- Clang工具链预编译包 -->
   <project remote="clo-la" 
            name="kernel_platform/prebuilts/clang-tools" 
