@@ -54,6 +54,7 @@
            revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
            upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
            clone-depth="1"/>
+  
 <!-- Bazel Apple 支持库 -->
   <project remote="clo-la" 
            name="kernel_platform/external/bazelbuild-apple_support" 
@@ -124,6 +125,7 @@
            revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
            upstream="upstream/qcom/kernel.build.lnx.2.0.r9-rel" 
            clone-depth="1"/>
+  
 <!-- Libcap 权限管理库 -->
   <project remote="clo-la" 
            name="kernel_platform/external/libcap" 
