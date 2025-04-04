@@ -53,15 +53,76 @@
            revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
            upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
            clone-depth="1"/>
-  <project remote="clo-la" name=kernel_platform/external/bazelbuild-apple_support" path="kernel_platform/external/bazelbuild-apple_support" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
-  <project remote="clo-la" name=kernel_platform/external/bazelbuild-bazel-central-registry" path="kernel_platform/external/bazelbuild-bazel-central-registry" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
-  <project remote="clo-la" name=kernel_platform/external/bazelbuild-platforms" path="kernel_platform/external/bazelbuild-platforms" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
-  <project remote="clo-la" name=kernel_platform/external/bazelbuild-rules_cc" path="kernel_platform/external/bazelbuild-rules_cc" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
-  <project remote="clo-la" name=kernel_platform/external/bazelbuild-rules_java" path="kernel_platform/external/bazelbuild-rules_java" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
-  <project remote="clo-la" name=kernel_platform/external/bazelbuild-rules_license" path="kernel_platform/external/bazelbuild-rules_license" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
-  <project remote="clo-la" name=kernel_platform/external/bazelbuild-rules_pkg" path="kernel_platform/external/bazelbuild-rules_pkg" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
-  <project remote="clo-la" name=kernel_platform/external/bazelbuild-rules_python" path="kernel_platform/external/bazelbuild-rules_python" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
-  <project remote="clo-la" name=kernel_platform/external/dtc" path="kernel_platform/external/dtc" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/kernel.build.lnx.2.0.r9-rel" clone-depth="1"/>
+<!-- Bazel Apple 支持库 -->
+  <project remote="clo-la" 
+           name="kernel_platform/external/bazelbuild-apple_support" 
+           path="kernel_platform/external/bazelbuild-apple_support" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1"/>
+
+<!-- Bazel 中央注册表依赖 -->
+  <project remote="clo-la" 
+           name="kernel_platform/external/bazelbuild-bazel-central-registry" 
+           path="kernel_platform/external/bazelbuild-bazel-central-registry" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1"/>
+
+<!-- Bazel 平台配置 -->
+  <project remote="clo-la" 
+           name="kernel_platform/external/bazelbuild-platforms" 
+           path="kernel_platform/external/bazelbuild-platforms" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1"/>
+ <!-- Bazel C++ 构建规则库 -->
+  <project remote="clo-la" 
+           name="kernel_platform/external/bazelbuild-rules_cc" 
+           path="kernel_platform/external/bazelbuild-rules_cc" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1"/>
+
+<!-- Bazel Java 构建规则库 -->
+  <project remote="clo-la" 
+           name="kernel_platform/external/bazelbuild-rules_java" 
+           path="kernel_platform/external/bazelbuild-rules_java" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1"/>
+
+<!-- Bazel 许可证规则库 -->
+  <project remote="clo-la" 
+           name="kernel_platform/external/bazelbuild-rules_license" 
+           path="kernel_platform/external/bazelbuild-rules_license" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1"/>
+
+<!-- Bazel 包管理规则库 -->
+  <project remote="clo-la" 
+           name="kernel_platform/external/bazelbuild-rules_pkg" 
+           path="kernel_platform/external/bazelbuild-rules_pkg" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1"/>
+
+<!-- Bazel Python 构建规则库 -->
+  <project remote="clo-la" 
+           name="kernel_platform/external/bazelbuild-rules_python" 
+           path="kernel_platform/external/bazelbuild-rules_python" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
+           clone-depth="1"/>
+
+<!-- 设备树编译器（DTC）依赖库 -->
+  <project remote="clo-la" 
+           name="kernel_platform/external/dtc" 
+           path="kernel_platform/external/dtc" 
+           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           upstream="upstream/qcom/kernel.build.lnx.2.0.r9-rel" 
+           clone-depth="1"/>
   <project remote="clo-la" name=kernel_platform/external/libcap" path="kernel_platform/external/libcap" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
   <project remote="clo-la" name=kernel_platform/external/libcap-ng" path="kernel_platform/external/libcap-ng" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
   <project remote="clo-la" name=kernel_platform/external/lz4" path="kernel_platform/external/lz4" revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" clone-depth="1"/>
