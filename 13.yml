@@ -28,4 +28,5 @@
   <project remote="clo-la" name="kernel_platform/prebuilts/jdk/jdk11" path="kernel_platform/prebuilts/jdk/jdk11" revision="ced68c9308cbc1b6ec3e602dba8d0d56df8b6d73"/> <!-- JDK 11 独立路径 -->
   <project remote="clo-la" name="kernel_platform/system/tools/mkbootimg" path="kernel_platform/tools/mkbootimg" revision="b17f184a20744a7e0a421f901bdf20a23be22b07"/>
   <project remote="clo-la" name="kernel_platform/toolchain/prebuilts/ndk/r23" path="kernel_platform/toolchain/prebuilts/ndk/r23" revision="269a5dc9e862f78dc2030d9262f73cb2642b8127"/> <!-- NDK r23 独立路径 -->
+  </project>
 </manifest>
