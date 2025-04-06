@@ -35,7 +35,9 @@
   <project name="kernel/prebuilts/build-tools" 
            path="kernel_platform/prebuilts/kernel-build-tools"
            remote="clo-la"
-           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042">
+           revision="d153b7ab4a4956198957e258d4f370e875c53059"
+           upstream="refs/heads/ks-kernel.lnx.3.0.r1-rel"
+           clone-depth="1">
     <linkfile dest="kernel_platform/build/prebuilts/kernel-build-tools" src="." />
     
   </project>
@@ -44,7 +46,7 @@
   <project remote="clo-la" 
            name="kernel_platform/build/bazel_common_rules" 
            path="kernel_platform/build/bazel_common_rules" 
-           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
+           revision="415b543d5e1d270a22f8c6ae9d848b3560472062" 
            upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
            clone-depth="1"/>
   <!--  Bazel 外部依赖库 -->
@@ -144,11 +146,11 @@
 
 <!-- LZ4 高性能压缩库 -->
   <project remote="clo-la" 
-           name="kernel_platform/external/lz4" 
-           path="kernel_platform/external/lz4" 
-           revision="refs/tags/AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.042" 
-           upstream="upstream/qcom/ks-kernel.lnx.4.0.r1-rel" 
-           clone-depth="1"/>
+    name="kernel_platform/external/lz4" 
+    path="kernel_platform/external/lz4" 
+    revision="I4ac8a0eb74b750f3e465ed0a063bdc492b827feb" 
+    upstream="refs/heads/la/aosp-new/android-15-qpr2-beta-1-gpl"
+    clone-depth="1"/>
 
 <!-- Pigz 并行压缩工具 -->
   <project remote="clo-la" 
