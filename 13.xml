@@ -44,7 +44,7 @@
   <project remote="aosp" name="platform/prebuilts/clang-tools" path="kernel_platform/prebuilts/clang-tools" revision="1634c6a556d1f2c24897bf74156c6449486e8941" clone-depth="1">
     <linkfile dest="kernel_platform/build/prebuilts/clang-tools" src="."/>
   </project>
-  <project remote="aosp" name="platform/prebuilts/jdk/jdk11" path="kernel_platform/prebuilts/jdk/jdk11" revision="c6c90521b7c317f13d41bbd9336a8d45ee202cec" clone-depth="1" groups="ddk" />
+  <project remote="clo-la" name="kernel_platform/prebuilts/jdk/jdk11" path="kernel_platform/prebuilts/jdk/jdk11" revision="ced68c9308cbc1b6ec3e602dba8d0d56df8b6d73" upstream="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1"/>
   <project remote="aosp" name="platform/system/tools/mkbootimg" path="kernel_platform/tools/mkbootimg" revision="d2bb0af5ba6d3198a3e99529c97eda1be0b5a093" clone-depth="1" groups="ddk" />
   <project remote="aosp" name="toolchain/prebuilts/ndk/r26" path="kernel_platform/prebuilts/ndk-r26" revision="abad5cbde7eb9684e37d7569810743a8a34826af" clone-depth="1" groups="ddk" />  
   <project remote="aosp" name="platform/prebuilts/clang/host/linux-x86" path="kernel_platform/prebuilts/clang/host/linux-x86" revision="7061673283909f372f4938e45149d23bd10cbd40" clone-depth="1" groups="ddk" />
