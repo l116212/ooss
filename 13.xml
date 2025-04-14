@@ -10,7 +10,7 @@
     <linkfile dest="kernel_platform/build_with_bazel.py" src="build_with_bazel.py"/>
   </project>
   <project remote="origin" name="android_kernel_modules_and_devicetree_oneplus_sm8750" path="./" revision="oneplus/sm8750_v_15.0.0_oneplus_13"/>
-  <project remote="clo-la" name="kernel/prebuilts/build-tools" path="kernel_platform/prebuilts/kernel-build-tools" revision="434f141b6d22a773a163fa9c707b19b4d254d989" upstream="refs/heads/ks-kernel.lnx.4.0.r1-rel" groups="ddk">
+  <project remote="clo-la" name="kernel/prebuilts/build-tools" path="kernel_platform/prebuilts/kernel-build-tools" revision="434f141b6d22a773a163fa9c707b19b4d254d989" upstream="refs/heads/ks-kernel.lnx.4.0.r1-rel" groups="ddk" groups="ddk" depth="1">
     <linkfile dest="kernel_platform/build/prebuilts/kernel-build-tools" src="."/>
   </project>
   <project remote="clo-la" name="kernel_platform/build/bazel_common_rules" path="kernel_platform/build/bazel_common_rules" revision="bf4e96f45555a215fe9923b516d2b7dfd3ec3c1f" upstream="refs/heads/ks-kernel.lnx.4.0.r1-rel" groups="ddk"/>
@@ -39,8 +39,8 @@
   <project remote="clo-la" name="kernel_platform/prebuilts/clang-tools" path="kernel_platform/prebuilts/clang-tools" revision="70bc10de031e2d0ff7e76adb9746bf339bb135c0" upstream="refs/heads/ks-kernel.lnx.4.0.r1-rel">
     <linkfile dest="kernel_platform/build/prebuilts/clang-tools" src="."/>
   </project>
-  <project remote="clo-la" name="kernel_platform/prebuilts/jdk/jdk11" path="kernel_platform/prebuilts/jdk/jdk11" revision="f2f372463c74a896e3d8a0abb33e4667837458c2" upstream="refs/heads/ks-kernel.lnx.4.0.r1-rel" groups="ddk"/>
-  <project remote="clo-la" name="kernel_platform/prebuilts/rust" path="kernel_platform/prebuilts/rust" revision="aff65346a9f85db2c8fd1d0c13b6dcd0bee76390" upstream="refs/heads/ks-kernel.lnx.4.0.r1-rel"/>
+  <project remote="clo-la" name="kernel_platform/prebuilts/jdk/jdk11" path="kernel_platform/prebuilts/jdk/jdk11" revision="f2f372463c74a896e3d8a0abb33e4667837458c2" upstream="refs/heads/ks-kernel.lnx.4.0.r1-rel"groups="ddk"/>
+  <project remote="clo-la" name="kernel_platform/prebuilts/rust" path="kernel_platform/prebuilts/rust" revision="aff65346a9f85db2c8fd1d0c13b6dcd0bee76390" upstream="refs/heads/ks-kernel.lnx.4.0.r1-rel" groups="ddk" depth="1"/>
   <project remote="clo-la" name="kernel_platform/system/tools/mkbootimg" path="kernel_platform/tools/mkbootimg" revision="5fa28e8bc7f708d49a5cd42c8baaa4e8c03e08ef" upstream="refs/heads/ks-kernel.lnx.4.0.r1-rel"/>
   <project remote="clo-la" name="kernel_platform/toolchain/prebuilts/ndk/r26" path="kernel_platform/prebuilts/ndk-r26" revision="226a78340f6196e9a2ee83a812afa2929f5fe54a" upstream="refs/heads/ks-kernel.lnx.4.0.r1-rel" groups="ddk"/>
   <project remote="clo-la" name="kernel_platform/tools/tradefederation/prebuilts" path="kernel_platform/prebuilts/tradefed" revision="0d6bd67313f94bd03fc54c350b9de54d94442ee7" upstream="refs/heads/ks-kernel.lnx.4.0.r1-rel"/>
