@@ -44,7 +44,7 @@
   <project remote="clo-la" name="kernel_platform/system/tools/mkbootimg" path="kernel_platform/tools/mkbootimg" revision="5fa28e8bc7f708d49a5cd42c8baaa4e8c03e08ef" upstream="refs/heads/ks-kernel.lnx.4.0.r1-rel"/>
   <project remote="clo-la" name="kernel_platform/toolchain/prebuilts/ndk/r26" path="kernel_platform/prebuilts/ndk-r26" revision="226a78340f6196e9a2ee83a812afa2929f5fe54a" upstream="refs/heads/ks-kernel.lnx.4.0.r1-rel" groups="ddk"/>
   <project remote="clo-la" name="kernel_platform/tools/tradefederation/prebuilts" path="kernel_platform/prebuilts/tradefed" revision="0d6bd67313f94bd03fc54c350b9de54d94442ee7" upstream="refs/heads/ks-kernel.lnx.4.0.r1-rel"/>
-  <project remote="clo-la" name="kernelplatform/prebuilts-master/clang/host/linux-x86" path="kernel_platform/prebuilts/clang/host/linux-x86" revision="b099698c583b8361ca771f3cc8d6af6f729f39b3" upstream="refs/heads/ks-kernel.lnx.4.0.r1-rel" groups="ddk"/>
+  <project remote="clo-la" name="kernelplatform/prebuilts-master/clang/host/linux-x86" path="kernel_platform/prebuilts/clang/host/linux-x86" revision="b099698c583b8361ca771f3cc8d6af6f729f39b3" upstream="refs/heads/ks-kernel.lnx.4.0.r1-rel" groups="ddk" depth="1"/>
   <project remote="clo-la" name="kernelplatform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="kernel_platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="e0de596ee4e1128b36fd2be9ec04422360bf404f" upstream="refs/heads/ks-kernel.lnx.4.0.r1-rel" groups="ddk">
     <linkfile dest="kernel_platform/build/build-tools/sysroot" src="sysroot"/>
   </project>
